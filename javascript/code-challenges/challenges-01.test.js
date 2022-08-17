@@ -49,7 +49,7 @@ Use `forEach` to loop over the input array. The modified strings should each be 
 const allUpperCase = (inputArr) => {
   const bold = [];
   inputArr.forEach(value => {
-    value = value.bold();
+    value = value.toUpperCase();
     bold.push(value);
   });
   return bold;
