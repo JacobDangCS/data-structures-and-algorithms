@@ -314,7 +314,7 @@ describe('Testing challenge 10', () => {
   });
 });
 
-describe('Testing challenge 11', () => {
+xdescribe('Testing challenge 11', () => {
   test('It should sort people with more strict ordering', () => {
     const family = [
       new Person('Casey', 'Codefellows', 55),
@@ -335,7 +335,7 @@ describe('Testing challenge 11', () => {
   });
 });
 
-describe('Testing challenge 12', () => {
+xdescribe('Testing challenge 12', () => {
   test('It should sort meetings by the day on which they happen', () => {
     const sortedMeetings = sortMeetingsByDay(meetings);
     expect(sortedMeetings.slice(0,2)).toEqual(expect.arrayContaining([new Meeting('Monday', '0900', '0945'), new Meeting('Monday', '0900', '1000')]));
@@ -345,7 +345,7 @@ describe('Testing challenge 12', () => {
   });
 });
 
-describe('Testing challenge 13', () => {
+xdescribe('Testing challenge 13', () => {
   test('It should sort meetings by when they happen', () => {
     expect(sortSchedule(meetings)).toStrictEqual([
       new Meeting('Monday', '0900', '0945'),
