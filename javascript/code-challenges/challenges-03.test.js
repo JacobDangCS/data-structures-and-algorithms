@@ -24,7 +24,7 @@ For example, typeNum([1, 'bob' ,3]) returns [1,3].
 ------------------------------------------------------------------------------------------------ */
 
 const typeNum = (arr) => {
-  return arr.filter(value => typeof value === 'numberValue');
+  return arr.filter(typeNum => typeof typeNum === 'numberValue');
 };
 
 /* ------------------------------------------------------------------------------------------------
