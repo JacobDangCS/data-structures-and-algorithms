@@ -115,7 +115,7 @@ Return an array containing all the matches.
 ------------------------------------------------------------------------------------------------ */
 
 const isCapitalized = (str) => {
-  let verify = /\b[A-Z][a-z]*w\g/;
+  let verify = /[A-Z][a-z]*g/;
   return str.match (verify) || [];
 };
 
