@@ -121,7 +121,7 @@ const characters = [
 
 const getHouses = (arr) => {
   let houses = [];
-  arr.map(value => houses.push(value.houses));
+  arr.map(value => house.push(value.house));
   return houses;
 };
 
@@ -138,19 +138,6 @@ hasChildrenValues(characters, 'Sansa') will return false
 ------------------------------------------------------------------------------------------------ */
 
 const hasChildrenValues = (arr, character) => {
-  // Solution code here...
-
-};
-
-/* ------------------------------------------------------------------------------------------------
-CHALLENGE 7 - Stretch Goal
-
-Write a function named hasChildrenEntries that is similar to your hasChildrenValues function from challenge 4, but uses the data's entries instead of its values.
-
-The input and output of this function are the same as the input and output from challenge 3.
------------------------------------------------------------------------------------------------- */
-
-const hasChildrenEntries = (arr, character) => {
   let children = 0;
   arr.forEach(value => {
     if (value.name === character) {
@@ -162,6 +149,17 @@ const hasChildrenEntries = (arr, character) => {
     }
   });
   return children ? true : false;
+};
+
+/* ------------------------------------------------------------------------------------------------
+CHALLENGE 7 - Stretch Goal
+
+Write a function named hasChildrenEntries that is similar to your hasChildrenValues function from challenge 4, but uses the data's entries instead of its values.
+
+The input and output of this function are the same as the input and output from challenge 3.
+------------------------------------------------------------------------------------------------ */
+
+const hasChildrenEntries = (arr, character) => {
 };
 
 /* ------------------------------------------------------------------------------------------------
