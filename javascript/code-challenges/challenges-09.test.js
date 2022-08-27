@@ -120,9 +120,9 @@ const characters = [
 ];
 
 const getHouses = (arr) => {
-  let houses = [];
+  let house = [];
   arr.map(value => house.push(value.house));
-  return houses;
+  return house;
 };
 
 /*------------------------------------------------------------------------------------------------
