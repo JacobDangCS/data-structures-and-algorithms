@@ -125,7 +125,7 @@ Note: You must use reduce for this challenge. You may not use the built-in .reve
 ------------------------------------------------------------------------------------------------ */
 
 const reversedString = (str) => {
-  let arr = str.split('');
+    let arr = str.split('');
   let newArr = [];
   arr.reduce((a, b) => newArr.unshift(b), '');
   return newArr.reduce((a, b) => a + b);
