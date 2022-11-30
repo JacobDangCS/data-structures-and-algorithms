@@ -1,5 +1,5 @@
 ## Whiteboard
 
-Assignment done with Camilla Rees
+Assignment done with Hunter Fehr
 
-![Code Challenge 1](Screenshots/CodeChallenge2.png)
+![Code Challenge 3](Screenshots/CodeChallenge3.png)
