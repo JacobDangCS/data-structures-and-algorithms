@@ -1,6 +1,5 @@
 'use strict';
 
-const { isTag } = require('domhandler');
 const LinkedList = require('./challenge-05.js');
 
 describe('Linked List', () => {
