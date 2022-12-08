@@ -43,3 +43,5 @@ class LinkedList {
         return current.value;
     }
 }
+
+module.exports = LinkedList;
