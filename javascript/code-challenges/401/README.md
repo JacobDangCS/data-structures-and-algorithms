@@ -1,13 +1,16 @@
-# Pseudo Stacks and Queues
-Challenge completed alongside Lewis Bronson
+# Stacks and Queues Animal Shelter
+Completed with the help of TA Katharine Swilley
 
 ## Challenge Summary
-Figure out the algorithm to implement a queue within two stacks without an existing queue. Using methods of enqueue and dequeue, you are supposed to construct a well implemented constructor.
+Utilize enqueue and dequeue methods within a Node class, where the argument that must be passed are identified as 'cats' or 'dogs'. Write tests that check for successful methods.
 
 ## Whiteboard Process
-![Code Challenge 11](Screenshots/CodeChallenge11.png)
+![Code Challenge 12](Screenshots/CodeChallenge12.png)
 
 ## Approach & Efficiency
-Big O notations used for this include Constant O(1) for enqueue and for dequeue, Linear O(n) because of how stacks and queues are constrained within itself
+See UML
+Linear O(1) and Constant O(1)
+
 
 ## Solution
+See UML
