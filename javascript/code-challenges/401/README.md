@@ -1,16 +1,16 @@
-# Stacks and Queues Animal Shelter
-Completed with the help of TA Katharine Swilley
+# Stacks and Queues Brackets
+Completed with the help of Trace Dugar & Seth Pierce
 
 ## Challenge Summary
-Utilize enqueue and dequeue methods within a Node class, where the argument that must be passed are identified as 'cats' or 'dogs'. Write tests that check for successful methods.
+This code challenge involves implementing a validator that checks for a string argument and returns a boolean. The validator checks for text brackets, including (), {}, & [] and checks to see if said brackets are considered balanced or not balanced
 
 ## Whiteboard Process
-![Code Challenge 12](Screenshots/CodeChallenge12.png)
+![Code Challenge 13](Screenshots/CodeChallenge13.png)
 
 ## Approach & Efficiency
-See UML
-Linear O(1) and Constant O(1)
-
+Time: Linear O(n)
+Space: O(1)
+Assignment took about 1.5 hours
 
 ## Solution
 See UML
