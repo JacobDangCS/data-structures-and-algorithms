@@ -1,0 +1,15 @@
+{
+  "name": "401",
+  "version": "1.0.0",
+  "description": "A tree structure of data is useful for storing as many nodes as possible and is faster than linked lists and arrays",
+  "main": " challenge-05.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
