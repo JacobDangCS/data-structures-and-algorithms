@@ -1,16 +1,14 @@
-# Stacks and Queues Brackets
-Completed with the help of Trace Dugar & Seth Pierce
+# Binary & BST Trees
+A tree structure of data is useful for storing as many nodes as possible and is faster than linked lists and arrays
 
 ## Challenge Summary
-This code challenge involves implementing a validator that checks for a string argument and returns a boolean. The validator checks for text brackets, including (), {}, & [] and checks to see if said brackets are considered balanced or not balanced
+Using a node class to create a binary tree and a binary search tree, implement child nodes that can be traversed in the method of trees
 
 ## Whiteboard Process
-![Code Challenge 13](Screenshots/CodeChallenge13.png)
+![Code Challenge 15](Screenshots/CodeChallenge15.png)
 
 ## Approach & Efficiency
-Time: Linear O(n)
-Space: O(1)
-Assignment took about 1.5 hours
+Assignment took about 1 hour
 
 ## Solution
 See UML
