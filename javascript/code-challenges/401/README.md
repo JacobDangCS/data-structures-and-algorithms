@@ -1,20 +1,19 @@
-# Hashtables
-Hashtables are used to store and retreive key value pairs, where values can be retrieved using keys. This data structure differs from previous ones we've learned because this structure allows for direct communication rather than a traversal 
+# Repeated Word
+This challenge is meant to demonstrate how to navigate hash maps through the perspective finding 'repeating words' in strings
 
 ## Challenge
-This challenge involves implementing a new data structure and new methods that correspond with the data structure, methods include 
-- set: Initializes the hash
-- get: Retrieves the hash
-- has: Checks if it exists
-- keys: Retrieves keys
-- hash: Retrieves the index for a key
+To write a function that takes in a collection of strings and returns a single string, specifically the string that is repeated throughout the collection of the strings
 
 ## Approach & Efficiency
-The approach taken for this involves understanding how hash tables work and how they correspond in context to utilizing methods.
+The approach involved iterating through a hashmap and checks for the length of the string and if there are repeated words
+Space: O(1)
+Time: O(1)
+
+## UML
+![Code Challenge 31](Screenshots/CodeChallenge31.png)
 
 ## API
-- set: Initializes the hash
-- get: Retrieves the hash
-- has: Checks if it exists
-- keys: Retrieves keys
-- hash: Retrieves the index for a key
+function repeatedWord that takes in a string
+
+### Credits
+Did this challenge with Seth Pierce
