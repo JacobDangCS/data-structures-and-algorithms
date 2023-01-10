@@ -1,19 +1,13 @@
-# Repeated Word
-This challenge is meant to demonstrate how to navigate hash maps through the perspective finding 'repeating words' in strings
+# Tree Intersection
+This challenge is meant to demonstrate how to navigate trees and utilize hashmap implementation.
 
 ## Challenge
-To write a function that takes in a collection of strings and returns a single string, specifically the string that is repeated throughout the collection of the strings
+To write a function that takes takes two binary trees as parameters and use Hashmap implementation to return a set of values found in both trees
 
 ## Approach & Efficiency
-The approach involved iterating through a hashmap and checks for the length of the string and if there are repeated words
+The approach involved iterating through two binary trees using hashmap methodology
 Space: O(1)
-Time: O(1)
+Time: O(n)
 
 ## UML
-![Code Challenge 31](Screenshots/CodeChallenge31.png)
-
-## API
-function repeatedWord that takes in a string
-
-### Credits
-Did this challenge with Seth Pierce
+![Code Challenge 32](Screenshots/CodeChallenge32.png)
