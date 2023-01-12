@@ -69,3 +69,5 @@ table.set('Jacob', 21);
 //console.log(JSON.stringify{table.buckets[HASH NUMBER of JACOB]});
 table.set('Jacob', 'Random Value');
 console.log('Jacob\'s value', table.get('Jacob'));
+
+module.exports = HashTable;
