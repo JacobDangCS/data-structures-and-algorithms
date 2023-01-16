@@ -1,13 +1,30 @@
-# Hashmap Left Join
-LEFT JOIN is a method that involves sorting through hashmaps and inserting/conjoining values specific to the hashmap's position
+# Graphs
+Starting with a new implementation of a data structure, we are working with graphs. The graph is equivalent to an adjacency list and there are multiple ways to traverse a graph.
 
 ## Challenge
-To write a function that takes takes two hashmaps containing strings as keys and synonyms of the strings as values and return array that contains all the values from the first hashmap and appended values from the "right" hashmap.
+The challenge involves creating methods that utilize the adjacency list idea and implement the following:
+- add node
+- add edge
+- get node
+- get neighbor
+- size
+
 
 ## Approach & Efficiency
-The approach involves
-Space: O(n)
-Time: O(n)
+Using past methods that share similar fundamentals as well as reading into graph methods
 
 ## UML
-![Code Challenge 33](Screenshots/CodeChallenge33.png)
+N/A
+
+## API
+- addVertex(value) 
+
+- addDirectedEdge(startVertex, endVertex, weight = 0)
+
+- getNeighbors(vertex)
+
+- getNodes()
+
+- breadFirst(root, callback)
+
+- depthFirst(root, callback)
