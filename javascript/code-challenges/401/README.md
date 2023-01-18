@@ -1,14 +1,11 @@
-# Graphs
-Starting with a new implementation of a data structure, we are working with graphs. The graph is equivalent to an adjacency list and there are multiple ways to traverse a graph.
+# Graph Business Trip
+This challenge is described as a graph with locations as placeholders for data, and all of them are connected with values attached to their connection line. By traversing through the locations, each path must be tracked and also check whether if it is possible to go from one location to another location that isn't connected
 
 ## Challenge
-The challenge involves creating the method breadthFirst. Breadth first traversal is something that other data structures utilize as well, and in simple terms, it's traversing a data structure from the top and starts with the furthest left data.
+The challenge involves creating a graph that has locations and has connection lines that are valued numerically. Locations that aren't directed connected cannot happen. If there are more than two locations that are being headed towards, the costs must account for that as well. Another thing to account for is if there are trips that go back and forth.
 
 ## Approach & Efficiency
-Using past methods that share similar fundamentals as well as reading into breadthFirst method for graphs will be useful for approach.
+Using the methods from Challenge 35, the approach would involve an understanding of graphs, vertices, etc. Reference the UML for further explanation
 
 ## UML
-![Code Challenge 36](Screenshots/CodeChallenge36.png)
-
-## API
-- breadFirst(root, callback)
+![Code Challenge 37](Screenshots/CodeChallenge37.png)
