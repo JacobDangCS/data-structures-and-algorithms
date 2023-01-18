@@ -1,11 +1,14 @@
-# Graph Business Trip
-This challenge is described as a graph with locations as placeholders for data, and all of them are connected with values attached to their connection line. By traversing through the locations, each path must be tracked and also check whether if it is possible to go from one location to another location that isn't connected
+# Graphs
+Starting with a new implementation of a data structure, we are working with graphs. The graph is equivalent to an adjacency list and there are multiple ways to traverse a graph.
 
 ## Challenge
-The challenge involves creating a graph that has locations and has connection lines that are valued numerically. Locations that aren't directed connected cannot happen. If there are more than two locations that are being headed towards, the costs must account for that as well. Another thing to account for is if there are trips that go back and forth.
+The challenge involves creating the method depth first. Depth first traversal is something that other data structures utilize as well, and in simple terms, it's traversing a data structure from the 
 
 ## Approach & Efficiency
-Using the methods from Challenge 35, the approach would involve an understanding of graphs, vertices, etc. Reference the UML for further explanation
+Using past methods that share similar fundamentals as well as reading into depth first method for graphs will be useful for approach.
 
 ## UML
-![Code Challenge 37](Screenshots/CodeChallenge37.png)
+![Code Challenge 38](Screenshots/CodeChallenge38.png)
+
+## API
+- depthFirst(root, callback)
